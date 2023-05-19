@@ -16,3 +16,8 @@ void main() {
     },
   );
 }
+
+//'User' được truyền như là text vào hàm textField.
+//'Hello' được thêm vào trước text để tạo ra result.
+//result ('Hello User') được truyền như là output vào hàm onChanged.
+//'Hello User' được in ra.
