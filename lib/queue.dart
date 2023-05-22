@@ -17,7 +17,7 @@ class Queue {
       print('Queue is full');
       return;
     }
-    await Future.delayed(Duration(seconds: 1)); // Delay to simulate async operation
+    await Future.delayed(Duration(seconds: 1));
     list.add(value);
     print('Enqueued $value');
   }
@@ -27,7 +27,7 @@ class Queue {
       print('Queue is empty');
       return null;
     }
-    await Future.delayed(Duration(seconds: 1)); // Delay to simulate async operation
+    await Future.delayed(Duration(seconds: 1));
     int value = list.removeAt(0);
     print('Dequeued $value');
     return value;

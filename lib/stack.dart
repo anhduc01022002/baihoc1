@@ -33,17 +33,17 @@ class Stack {
 void main() {
   Stack s = new Stack(3);
 
-  print(s.isEmpty()); // Trả về true
+  print(s.isEmpty());
 
   s.push('A');
   s.push('B');
   s.push('C');
-  // s.push('D'); // Sẽ ném ra ngoại lệ "Stack is full"
 
-  print(s.isFull()); // Trả về true
 
-  print(s.pop()); // Trả về 'C'
-  print(s.pop()); // Trả về 'B'
-  print(s.pop()); // Trả về 'A'
-  // print(s.pop()); // Sẽ ném ra ngoại lệ "Stack is empty"
+  print(s.isFull());
+
+  print(s.pop());
+  print(s.pop());
+  print(s.pop());
+
 }
