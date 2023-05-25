@@ -51,21 +51,21 @@ class Comment {
 }
 
 void main() {
-  Member john = Member(
-    name: 'john',
-    avatar: 'john_avatar.png',
-    fullName: 'John Doe',
-    birthDate: DateTime(1990, 5, 24),
+  Member duc = Member(
+    name: 'Duc',
+    avatar: 'avatar.png',
+    fullName: 'Anh Duc',
+    birthDate: DateTime(2002, 02, 01),
     phoneNumber: '0123456789',
-    email: 'john@example.com',
+    email: 'hoanganhduc2k2@gmail.com',
     gender: 'Male',
   );
 
-  Post post1 = Post(member: john, content: 'Hello, world!');
+  Post post1 = Post(member: duc, content: 'Hello, world!');
 
-  john.addPost(post1);
+  duc.addPost(post1);
 
-  Comment comment1 = Comment(member: john, content: 'This is my first comment.');
+  Comment comment1 = Comment(member: duc, content: 'This is my first comment.');
 
   post1.addComment(comment1);
 }
