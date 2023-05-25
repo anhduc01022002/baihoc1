@@ -20,8 +20,8 @@ class ScreenSize {
 }
 void main() {
   ScreenSize screenSize = ScreenSize();
-  screenSize.init(Size(375, 812)); // iPhone 11 device screen size
+  screenSize.init(Size(375, 812));
 
-  double scaledWidth = screenSize.scaleWidth(100); // Example: Scale width of 100 from design
-  print('Scaled width: $scaledWidth'); // Output: Scaled width: 120.0
+  double scaledWidth = screenSize.scaleWidth(100);
+  print('Scaled width: $scaledWidth');
 }

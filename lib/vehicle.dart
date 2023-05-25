@@ -9,13 +9,13 @@ class Car extends Vehicle{
   @override
   void accelerate() {
     // TODO: implement accelerate
-    print('Car have startEngine');
+    print('Car have accelerate');
   }
 
   @override
   void brake() {
     // TODO: implement brake
-    print('Car have startEngine');
+    print('Car have brake');
   }
 
   @override
@@ -27,7 +27,7 @@ class Car extends Vehicle{
   @override
   void stopEngine() {
     // TODO: implement stopEngine
-    print('Car have startEngine');
+    print('Car have stopEngine');
   }
 }
 
@@ -35,13 +35,13 @@ class Motorcycle extends Vehicle{
   @override
   void accelerate() {
     // TODO: implement accelerate
-    print('Motorcycle engine started');
+    print('Motorcycle have accelerate');
   }
 
   @override
   void brake() {
     // TODO: implement brake
-    print('Motorcycle engine started');
+    print('Motorcycle have brake');
   }
 
   @override
@@ -53,7 +53,7 @@ class Motorcycle extends Vehicle{
   @override
   void stopEngine() {
     // TODO: implement stopEngine
-    print('Motorcycle engine started');
+    print('Motorcycle engine stopped');
   }
 
 }
